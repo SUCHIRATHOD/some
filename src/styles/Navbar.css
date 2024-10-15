@@ -1,0 +1,75 @@
+/* General navbar styling */
+.navbar {
+  background-color: #f8f9fa;
+  padding: 1rem;
+}
+
+/* Styling the logo */
+.logo {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin: 0;
+  padding: 0;
+}
+
+/* Styling for nav links (About, Contact, etc.) */
+.nav-link {
+  color: black !important; /* Ensures the link is black */
+  font-weight: 500; /* Adds some weight to make the text stand out */
+  padding: 0.5rem 1rem; /* Adds padding to make the clickable area larger */
+  transition: color 0.3s ease, border-bottom 0.3s ease; /* Smooth hover transition */
+  border-bottom: 2px solid transparent; /* Underline effect on hover */
+  display: flex;
+}
+
+.nav-link:hover {
+  color: #0056b3 !important; /* Change text color on hover */
+  border-bottom: 2px solid #0056b3; /* Underline effect on hover */
+}
+
+/* Styling for buttons like login and cart */
+.button-link {
+  color: black !important;
+  text-decoration: none;
+  font-weight: 500;
+  margin-left: 1rem;
+}
+
+.button-link:hover {
+  color: #0056b3 !important;
+}
+
+/* Shadow effect for the navbar */
+.shadow-navbar {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Centering and positioning the search icon */
+.position-relative {
+  position: relative;
+}
+
+.position-absolute {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #495057;
+}
+
+/* Add styles for mobile responsiveness */
+@media (max-width: 768px) {
+  .logo {
+      width: 50px;
+      height: 50px;
+  }
+
+  .nav-link {
+      padding: 0.5rem 0.75rem;
+  }
+
+  .button-link {
+      margin-left: 0.5rem;
+  }
+}

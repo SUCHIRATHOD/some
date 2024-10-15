@@ -1,0 +1,23 @@
+.custom-container {
+    background-color: #f7e4ec; /* Light pink background to suit a beauty theme */
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.custom-title {
+    color: #d81b60; /* Deep pink color for the title */
+    font-size: 1.2rem; /* Slightly increased font size for emphasis */
+    font-weight: 600; /* Semi-bold for visibility */
+    margin-bottom: 20px; /* Space between title and paragraph */
+}
+
+.custom-text {
+    color: #5d4037; /* Warm brown color for the paragraph */
+    font-size: 1rem; /* Font size for readability */
+    line-height: 1.6; /* Improved line spacing */
+}
+
+.custom-container .container {
+    max-width: 100% !important;
+}

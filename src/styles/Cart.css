@@ -1,0 +1,22 @@
+/* src/Cart.css */
+.cart-header {
+    background-color: #f8f9fa;
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 10px;
+}
+
+.cart-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.cart-footer {
+    font-size: 1.2rem;
+    text-align: right;
+    padding: 10px;
+    background-color: #f8f9fa;
+    font-weight: bold;
+}

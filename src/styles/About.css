@@ -1,0 +1,28 @@
+.about-container {
+    background-color: #f7e4ec; /* Light pink background for the about page */
+    padding: 40px;
+    border-radius: 8px;
+}
+
+.about-title {
+    color: #d81b60; /* Deep pink for the title */
+    font-size: 2rem; /* Larger font size for the main title */
+}
+
+.about-description {
+    color: #5d4037; /* Warm brown for the description text */
+    font-size: 1.1rem; /* Slightly larger font for readability */
+    line-height: 1.6; /* Improved line spacing */
+}
+
+.service-card {
+    margin-bottom: 20px; /* Space between service cards */
+    border-radius: 8px; /* Rounded corners for the cards */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
+}
+
+.team-card {
+    margin-bottom: 20px; /* Space between team cards */
+    border-radius: 8px; /* Rounded corners for the cards */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
+}

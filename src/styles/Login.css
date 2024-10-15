@@ -1,0 +1,61 @@
+#d-main {
+    margin-top: 250px;
+    height: 100vh; /* Ensures the container fills the viewport height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: bisque; /* Background for the entire page */
+}
+
+.sec1 {
+    background-color: blueviolet;
+    display: flex;
+    border-radius: 10%;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.7);
+    max-width: 400px; /* Set a max-width for the form */
+    width: 100%;
+    padding: 30px;
+}
+
+.sec1-d1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    color: white;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+form {
+    width: 100%;
+}
+
+input[type="text"],
+input[type="password"] {
+    padding: 10px;
+    border-radius: 10%;
+}
+
+#btn1 {
+    background-color: red;
+    width: 100%; /* Make button fill the width */
+    border: none;
+    border-radius: 5px;
+}
+
+span {
+    color: gold;
+}
+
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+}

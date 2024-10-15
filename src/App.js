@@ -1,25 +1,43 @@
-import logo from './logo.svg';
-import './App.css';
+ import logo from './logo.svg';
+ import './App.css';
+ import NavScrollExample from './components/Navbar'
+ import Banner from './components/Banner';
+ import  'bootstrap/dist/css/bootstrap.min.css';
+import Categories from './components/Categories';
+ import Bestsellers from './components/Bestsellers';
+ import Artist from './components/Artist';
+ import Paragraph from './components/Paragraph';
+ import Footer from './components/Footer';
+ import Serve from './components/Serve';
+ import Searches from './components/Searches';
+ import Rights from './components/Rights';
+import About from './components/About';
+ import Services from './components/Services';
+import ContactPage from './components/Contact';
+ import Login from './components/Login';
+ import SignupPage from './components/Signup';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+     <div >
+     <NavScrollExample />
+     <Banner/>
+     <Categories/>
+     <Bestsellers/>
+     <Artist/>   
+     <Paragraph/>
+     <Footer/>
+     <Serve/>
+      <Searches/>
+      <Rights/>
+      <About/>
+      <Services/>
+     < ContactPage/>
+   <Login/>
+      <SignupPage/>
+     
+     </div>
   );
-}
+ }
 
-export default App;
+ export default App;
