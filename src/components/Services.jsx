@@ -49,7 +49,7 @@ const ServicesPage = () => {
         {services.map((service, index) => (
           <Col md={6} lg={4} key={index} className="mb-4">
             <Card className="service-card">
-              <Card.Img variant="top" src={service.image} alt={service.title} className="service-image" />
+              <Card.Img variant="top" src={service.image} alt={service.title} className="service-image"style={{width :"70%" ,height :"85%"}}/>
               <Card.Body>
                 <Card.Title>{service.title}</Card.Title>
                 <Card.Text>{service.description}</Card.Text>

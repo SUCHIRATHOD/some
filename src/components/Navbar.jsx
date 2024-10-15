@@ -7,8 +7,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars, faUser, faShoppingCart, faSearch, faMapMarkerAlt } from '@fortawesome/free-solid-svg-icons';
-import '../styles/Navbar.css'; // Import the CSS file for custom styles
-
+import '../styles/Navbar.css';
 
 function NavScrollExample() {
     return (
@@ -16,7 +15,7 @@ function NavScrollExample() {
         <Navbar fixed="top" expand="lg" className="bg-body-tertiary shadow-navbar">
             <Container fluid>
                 {/* Replace text with logo image */}
-                <Navbar.Brand href="#">
+                <Navbar.Brand href="/">
                     <img 
                         src="https://img.freepik.com/premium-vector/pink-black-lipstick-with-pink-lip-gloss_1277164-19807.jpg?w=740"
                         alt="Makeup Logo"
@@ -38,9 +37,9 @@ function NavScrollExample() {
                 <Navbar.Collapse id="navbarScroll">
                     <Nav className="me-auto my-2 my-lg-0" style={{ maxHeight: '100px' }} navbarScroll>
                         {/* About and Contact Links */}
-                        <Nav.Link href="#about" className="nav-link">About</Nav.Link>
-                        <Nav.Link href="#about" className="nav-link">Services</Nav.Link>
-                        <Nav.Link href="#contact" className="nav-link">Contact</Nav.Link>
+                        <Nav.Link href="/about" className="nav-link">About</Nav.Link>
+                        <Nav.Link href="/services" className="nav-link">Services</Nav.Link>
+                        <Nav.Link href="/contact" className="nav-link">Contact</Nav.Link>
                         
                     </Nav>
 
@@ -61,12 +60,9 @@ function NavScrollExample() {
 
                     {/* Icons on the Right Side */}
                     <div className="d-flex align-items-center ms-3">
-                    <Button variant="link" className="text-decoration-none button-link ms-3">
-                            <FontAwesomeIcon size="lg" /> Login
-                        </Button>
-                        <Button variant="link" className="text-decoration-none button-link ms-3">
-                            <FontAwesomeIcon size="lg" /> Signup
-                        </Button>
+                    <Nav.Link href="/login" className="nav-link">Login</Nav.Link>
+                    <Nav.Link href="/signup" className="nav-link">SignUp</Nav.Link>
+
                         <Button variant="link" className="text-decoration-none button-link ms-3">
                             <FontAwesomeIcon icon={faShoppingCart} size="lg" /> Cart
                         </Button>

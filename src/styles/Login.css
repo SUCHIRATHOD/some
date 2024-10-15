@@ -1,5 +1,5 @@
 #d-main {
-    margin-top: 250px;
+    /* margin-top: 250px; */
     height: 100vh; /* Ensures the container fills the viewport height */
     display: flex;
     justify-content: center;
@@ -27,7 +27,8 @@
 h1 {
     color: white;
     font-size: 24px;
-    margin-bottom: 20px;
+      margin-bottom: 20px;  
+   
 }
 
 form {
@@ -58,4 +59,5 @@ input[type="password"] {
     border-radius: 10px;
     border: 1px solid #ddd;
     margin-bottom: 10px;
+    
 }

@@ -2,7 +2,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-}
+    
 
 .signup-section {
     background-color: blueviolet;
@@ -11,6 +11,8 @@
     padding: 20px;
     width: 100%;
     max-width: 400px; /* Limit the width */
+    margin-top: 50px;
+}
 }
 
 .signup-section h1 {
